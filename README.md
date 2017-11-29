@@ -11,7 +11,7 @@
 ### html部分
 
 ```html
-<img class="enlargeImg" width="80" src="https://zc95.github.io/images/avatar.png"
+<img class="enlargeImg" width="80" src="https://zc95.github.io/images/myImages/enlargeImg.png"
 title="点击查看大图" />
 ```
 
