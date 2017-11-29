@@ -1,7 +1,5 @@
 
-<p style="text-align:center;">
-<img style="box-shadow:1px 1px 10px #888888;"  src="https://zc95.github.io/images/myImages/enlargeImg.png" width="90%;">
-</p>
+![https://www.baidu.com/img/bd_logo1.png](https://www.baidu.com/img/bd_logo1.png)
 
 ## Demo
 
