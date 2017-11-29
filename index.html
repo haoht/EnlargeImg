@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style type="text/css">
+  	.enlargeImg_wrapper {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(52, 52, 52, 0.8);
+  background-size: 50%;
+}
+
+img:hover,
+.enlargeImg_wrapper:hover {
+  cursor: pointer;
+}
+
+  </style>
+</head>
+<body>
+  <img class="enlargeImg" width="80" src="https://zc95.github.io/images/avatar.png"
+title="点击查看大图" />
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(function() {
+  enlargeImg();
+})
+//查看大图
+function enlargeImg() {
+  $(".enlargeImg").click(function() {
+    $(this).after("<div onclick='closeImg()' class='enlargeImg_wrapper'></div>");
+    var imgSrc = $(this).attr('src');
+    $(".enlargeImg_wrapper").css("background-image", "url(" + imgSrc + ")");
+    $('.enlargeImg_wrapper').fadeIn(200);
+  })
+}
+//关闭并移除图层
+function closeImg() {
+  $('.enlargeImg_wrapper').fadeOut(200).remove();
+}
+</script>
+</body>
+</html>
