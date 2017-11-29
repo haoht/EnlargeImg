@@ -1,5 +1,5 @@
 
-## Demo
+## 链接
 
 - [demo地址](https://htmlpreview.github.io/?https://github.com/zc95/enlargeImg/blob/master/index.html)
 - [github地址](https://github.com/zc95/enlargeImg)
