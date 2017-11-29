@@ -1,4 +1,7 @@
 
+<p style="text-align:center;">
+<img style="box-shadow:1px 1px 10px #888888;"  src="/images/myImages/enlargeImg.png" width="90%;">
+</p>
 ## Demo
 
 - [demo地址](https://htmlpreview.github.io/?https://github.com/zc95/enlargeImg/blob/master/index.html)
