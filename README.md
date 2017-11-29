@@ -1,6 +1,4 @@
 
-![https://zc95.github.io/images/myImages/enlargeImg.png](https://zc95.github.io/images/myImages/enlargeImg.png)
-
 ## Demo
 
 - [demo地址](https://htmlpreview.github.io/?https://github.com/zc95/enlargeImg/blob/master/index.html)
