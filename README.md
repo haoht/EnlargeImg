@@ -1,6 +1,20 @@
+---
+title: 用最简单的代码实现点击查看大图
+categories:
+  - demo
+tags:
+  - html
+comments: true
+toc: true
+date: 2017-11-29 21:03:34
+thumbnail:
+---
+今天做了个点击查看大图的功能，只需要给img加一个class，不用写额外的html代码
+
 ## Demo
 
-- [demo](https://htmlpreview.github.io/?https://github.com/zc95/enlargeImg/blob/master/index.html)
+- [demo地址](https://htmlpreview.github.io/?https://github.com/zc95/enlargeImg/blob/master/index.html)
+- [github地址](https://github.com/zc95/enlargeImg)
 
 ## 核心代码
 
