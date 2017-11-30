@@ -39,9 +39,11 @@ title="点击查看大图" />
   background-size: 50%;
 }
 
-img:hover,
+img:hover {
+    cursor: zoom-in;
+}
 .enlargeImg_wrapper:hover {
-  cursor: pointer;
+    cursor: zoom-out;
 }
 ```
 
@@ -50,6 +52,8 @@ img:hover,
 - 半透明遮罩层 background-color: rgba(52, 52, 52, 0.8);
 - 水平垂直居中 background-position: center;
 - 放大后的图片大小 background-size: 50%;
+- 鼠标悬浮放大指针 cursor: zoom-in;
+- 鼠标悬浮放大缩小 cursor: zoom-out;
 - 如果受页面中别的定位元素的z-index影响，改z-index的值就行
 
 ### js部分
