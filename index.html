@@ -17,7 +17,7 @@
   background-attachment: fixed;
   background-position: center;
   background-color: rgba(52, 52, 52, 0.8);
-  background-size: 50%;
+  background-size: 90%;
 }
 
 .enlargeImg:hover {
@@ -43,12 +43,12 @@ function enlargeImg() {
     $(this).after("<div onclick='closeImg()' class='enlargeImg_wrapper'></div>");
     var imgSrc = $(this).attr('src');
     $(".enlargeImg_wrapper").css("background-image", "url(" + imgSrc + ")");
-    $('.enlargeImg_wrapper').fadeIn(200);
+    $('.enlargeImg_wrapper').fadeIn(150);
   })
 }
 //关闭并移除图层
 function closeImg() {
-  $('.enlargeImg_wrapper').fadeOut(200).remove();
+  $('.enlargeImg_wrapper').fadeOut(150).remove();
 }
 </script>
 </body>
